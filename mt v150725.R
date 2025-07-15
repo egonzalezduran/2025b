@@ -222,7 +222,7 @@ SimPoolPlot<- ggplot(df.plot, aes(x=pos, color= prob, fill= prob)) +
   geom_vline(data=summary.mitoprobs, aes(xintercept=mean,color=prob),linetype="dashed") 
 SimPoolPlot
 
-#makes an histogram of the nad9-positive pools (x-axis), vs number of simulations where that number of positives are found (y-axis), color-coded depending on the proposed frequency
+#makes a density plot of the nad9-positive pools (x-axis), vs density of simulations where that number of positives are found (y-axis), color-coded depending on the proposed frequency
 
 pdf(file="PoolSimulation.pdf", height = 4, width = 5)
 SimPoolPlot
