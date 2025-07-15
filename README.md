@@ -1,0 +1,2 @@
+R Code for Running title: Control of mitochondrial inheritance By Gonzalez-Duran, Liang, et al. 2025 v. 15.07.2025
+In order to run the code, just put the .R file in a folder of your choosing and run R v.4.3.3 through R studio. The script will set the path where the file is as the working directory, and necessary packages are installed automatically. Output files will be generated in the working directory.
