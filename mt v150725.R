@@ -219,7 +219,6 @@ summary.mitoprobs <- df.plot %>%
 
 SimPoolPlot<- ggplot(df.plot, aes(x=pos, color= prob, fill= prob)) + 
   geom_density(alpha=.2) +
-  geom_histogram(alpha=.1, binwidth = 1) +
   geom_vline(data=summary.mitoprobs, aes(xintercept=mean,color=prob),linetype="dashed") 
 SimPoolPlot
 
