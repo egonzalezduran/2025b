@@ -179,7 +179,7 @@ df.plot <- data.frame(prob=factor(rep(Prob,each=Nsim)),
                       pos= positives.per.simulation.mito)
 colnames(df.plot)<- c("prob","pos")
 
-#simply sums the number of positive pools per simulation, per frequency given in prom
+#simply sums the number of positive pools per simulation, per frequency given in Prob
 
 summary.mitoprobs <- df.plot %>% 
   group_by(prob) %>%
@@ -202,4 +202,5 @@ dev.off()
 sink(file= "positive pools expected at given transmission frequency.txt")
 summary.mitoprobs 
 sink()
+
 
