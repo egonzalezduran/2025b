@@ -33,7 +33,7 @@ setwd(dirname(rstudioapi::getActiveDocumentContext()$path)) # sets the location 
 getwd() # shows the working directory
 
 
-####### Comparison of Number of mitochondria in GC at different temperatures#################################
+####### A. Comparison of Number of mitochondria in GC at different temperatures#################################
 
 #t-test
 mitoGC<- as.data.frame(read.table("data_for_GC_comparison_ttest.txt", header = TRUE)) #passes data from .txt file to a data frame
@@ -68,7 +68,7 @@ pdf(file="MitoGC_plot.pdf", height = 4, width = 5)
 plot.GC
 dev.off()
 
-####### Model for effect of cold and dpd mutation in mitochondrial inheritance################################
+####### B. Model for effect of cold and dpd mutation in mitochondrial inheritance################################
 
 PT.df <- as.data.frame(read.table("RT_screen_data.txt", header = TRUE))
 PT.df[,6] <- PT.df$Positives / PT.df$Total.seedlings #Fills column PT with the transmission rate (positives/total seedlings screen)
@@ -129,7 +129,7 @@ pdf(file="RTscreen_results.pdf", height = 4, width = 5) #Prints the results of t
 plot.M1
 dev.off()                                        
 
-####### Corrected estimate of mitochondrial transmission to account for pooling strategy##########
+####### C. Simulation to produce a corrected estimate of mitochondrial transmission accounting for pooling strategy##########
 
 ## the following code simulates the number of positive pools (mean and visual distribution) that could be observed at a given transmission rate 
 
@@ -202,3 +202,4 @@ dev.off()
 sink(file= "positive pools expected at given transmission frequency.txt")
 summary.mitoprobs 
 sink()
+
