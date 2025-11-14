@@ -51,7 +51,7 @@ plot.GC <- ggplot(dfGCplot,aes(x=Group,y=Value,fill=Group))+
   geom_boxplot(outlier.size = 0, alpha=0.7, linewidth=0.5, show.legend=FALSE)+
   scale_y_continuous(limits=c(0,10),breaks = c(0,1,2,3,4,5,6,7,8,9,10),labels=c(0," ",2," ",4," ",6," ",8," ",10))+
   geom_point(aes(fill=Group),alpha = 0.9, size = 4, shape=21, show.legend=FALSE, position = position_jitter(width = 0.3,height = 0,seed=10))+
-  scale_fill_manual(values=c("#faaa44","#1F78B4"))+          
+  scale_fill_manual(values=c("#1F78B4","#faaa44"))+          
   xlab(" ") +
   ylab("Number of mitochondria in GC") +
   theme(panel.background = element_blank(), 
@@ -202,6 +202,7 @@ dev.off()
 sink(file= "positive pools expected at given transmission frequency.txt")
 summary.mitoprobs 
 sink()
+
 
 
 
