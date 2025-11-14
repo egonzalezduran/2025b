@@ -27,7 +27,7 @@ PART 2: SYSTEM REQUIREMENTS
 
 	2A. SOFTWARE DEPENDENCIES AND OPERATING SYSTEMS
 
-	This code was designed and ran in a PC with Windows 11 Enterprise Version 23H2 as OS(Build: 22631.6060) x64
+	This code was designed and ran in a PC with Windows 11 Enterprise Version 23H2 as OS(Build: 22631.6060)
 	Requires the following programs installed:
 
 	-R version 4.3.3 (https://cran.r-project.org/bin/windows/base/old/4.3.3/)
