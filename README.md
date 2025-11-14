@@ -1,7 +1,7 @@
 ###R Code for statistics and modelling###
-For the manuscript with running title: Control of mitochondrial inheritance                                                                                                                                       
-by Enrique Gonzalez-Duran, Zizhen Liang, Joachim Forner, Dennis Kleinschmidt, Weiqi Wang, Liwen Jiang, Kin Pan Chung* & Ralph Bock*(2025)                                                                                                                                    
-Version 14.11.25 by Enrique Gonzalez-Duran, Max Planck Institute of Molecular Plant Physiology, Potsdam-Golm, Germany                                                                                                                                                                                                   
+#For the manuscript with running title: Control of mitochondrial inheritance                                                                                                                                       
+#by Enrique Gonzalez-Duran, Zizhen Liang, Joachim Forner, Dennis Kleinschmidt, Weiqi Wang, Liwen Jiang, Kin Pan Chung* & Ralph Bock*(2025)                                                                                                                                    
+#Version 14.11.25 by Enrique Gonzalez-Duran, Max Planck Institute of Molecular Plant Physiology, Potsdam-Golm, Germany                                                                                                                                                                                                   
 
 PART 0: PURPOSES 
 	
