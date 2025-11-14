@@ -60,7 +60,7 @@ plot.GC <- ggplot(dfGCplot,aes(x=Group,y=Value,fill=Group))+
         text=element_text(size=12,family="sans"),
         axis.line.x = element_line(linewidth = 0.5, linetype = "solid", colour = "black"),
         axis.line.y = element_line(linewidth = 0.5, linetype = "solid", colour = "black"))+
-  geom_signif(comparisons=list(c("Pollen at 10°C", "Pollen at 25°C")), annotations="***",
+  geom_signif(comparisons=list(c("Pollen_at_10C", "Pollen_at_25C")), annotations="***",
               y_position = 9.3, tip_length = 0.05, vjust=0.4) 
 
 plot.GC
@@ -202,5 +202,6 @@ dev.off()
 sink(file= "positive pools expected at given transmission frequency.txt")
 summary.mitoprobs 
 sink()
+
 
 
