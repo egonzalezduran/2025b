@@ -1,0 +1,5 @@
+        Group Temperature Genotype Positives Total.seedlings   PT
+1 nad9xDK53gh          gh     dk53         2            1105 <NA>
+2  nad9xDK53c        cold     dk53         3             386 <NA>
+3 nad9xdpd1gh          gh     dpd1         1             375 <NA>
+4  nad9xdpd1c        cold     dpd1        27             368 <NA>

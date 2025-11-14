@@ -1,0 +1,11 @@
+Tomogram	pollen_at_25C	pollen_at_10C
+TOMO1	0	8
+TOMO2	4	6
+TOMO3	0	2
+TOMO4	1	5
+TOMO5	1	3
+TOMO6	0	6
+TOMO7	1	5
+TOMO8	0	3
+TOMO9	1	2
+TOMO10	2	5
