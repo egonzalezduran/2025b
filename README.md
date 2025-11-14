@@ -80,7 +80,7 @@ PART 4: DEMO
 		For the data in RT_screen_data.txt file, the correct function of the hypothesis testing and plots requires that the group names are not changed. 
 		
 		c. Monte Carlo Simulation
-		Unlike the other two purposes, the values of 4 parameters have to be changed directly in the script to produce different results
+		Unlike the other two purposes, the values of 4 parameters have to be changed directly in the script to produce different results (no external datasets)
 		
 		The parameters are 
 		"Prob" <- A vector with multiple frequencies of paternal transmission (2 or more). The screen will simulate the results of a pooling-based RT-PCR screen for every frequency specified
